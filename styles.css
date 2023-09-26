@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    background-color: aliceblue;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+
+    position: fixed;
+    top: 25%;
+}
+
+#fav-div {
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+#content-div {
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+
+
+
+#submit {
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
