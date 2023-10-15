@@ -50,7 +50,7 @@ body {
   border-radius: 90px;
 }
 
-img {
+#star-image {
   width: 22px;
   height: 21px;
 }
@@ -88,12 +88,29 @@ p {
   border: 0;
 }
 
+.selected-star-button {
+  width: 60px;
+  height: 60px;
+  background-color: var(--Light-Grey);
+  color: var(--White);
+  border-radius: 90px;
+  border: 0;
+}
+
+.star-button:hover {
+  background-color: var(--Orange);  
+  color: var(--White);
+}
+
+a {
+  width: 100%;
+}
+
 #submit {
   width: 100%;
   height: 52px;
   margin-top: 15px;
   padding-top: 5px;
-
   color: var(--White);
   background-color: var(--Orange);
   border-radius: 90px;
@@ -101,6 +118,11 @@ p {
   font-weight: 500;
   font-family: 'Overpass', sans-serif;
   letter-spacing: 3px;
+}
+
+#submit:hover {
+  color: var(--Orange);
+  background-color: var(--White);
 }
 
 button {

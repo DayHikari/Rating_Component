@@ -19,22 +19,11 @@
       rel="stylesheet"
     />
     <title>Frontend Mentor | Interactive rating component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <div id="container">
       <div id="fav-div">
-        <img src="./images/icon-star.svg" alt="orange-star" />
+        <img src="./images/icon-star.svg" alt="orange-star" id="star-image" />
       </div>
       <div id="content-div">
         <h1>How did we do?</h1>
@@ -50,7 +39,11 @@
         <button id="four-star" class="star-button">4</button>
         <button id="five-star" class="star-button">5</button>
       </div>
-      <button id="submit"><span>SUBMIT</span></button>
+      <a id="submit-link" href="">
+        <button id="submit">
+          <span>SUBMIT</span>
+        </button>
+      </a>
     </div>
 
     <!-- Thank you state start -->
