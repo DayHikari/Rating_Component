@@ -98,7 +98,7 @@ p {
 }
 
 .star-button:hover {
-  background-color: var(--Orange);  
+  background-color: var(--Orange);
   color: var(--White);
 }
 
@@ -127,4 +127,17 @@ a {
 
 button {
   font-size: large;
+}
+
+.ty {
+  padding: 0 5px;
+  text-align: center;
+}
+
+.rating {
+  margin-top: 25px;
+  background-color: var(--Dark-Blue);
+  color: var(--Orange);
+  padding: 10px 20px 5px;
+  border-radius: 45px;
 }

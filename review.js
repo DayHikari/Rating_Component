@@ -11,7 +11,6 @@ const submitLink = document.querySelector("#submit-link")
 // Selected score variable
 let score = "";
 
-
 //  Event listeners
 // Star button click event listener
 starButtons.forEach(element => {
@@ -22,6 +21,7 @@ starButtons.forEach(element => {
         element.className = "selected-star-button"
         score = element.textContent;
         submitLink.setAttribute("href", "thank-you.html");
+        localStorage.setItem('rating', score)
     })
 });
 
@@ -29,5 +29,5 @@ starButtons.forEach(element => {
 submitButton.addEventListener("click", function () {
     if (score === "") {
         alert("Please select a score")
-    }
+    } 
 })
